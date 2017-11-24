@@ -1,0 +1,146 @@
+/*Area del Título*/
+h1{
+    font: Impact;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Imagen de Fondo*/
+
+body{
+    background-image: url("https://cdn.shutterstock.com/shutterstock/videos/22911994/thumb/1.jpg");
+    background-repeat: repeat-y;
+    background-size:100%;
+}
+
+/*Menú Principal*/
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu ul li{
+    float: left;
+    display: inline;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: #111;
+}
+
+#botonIniciarSesion{
+    background-color: green;
+    float: right;
+}
+
+/*Palabra Login*/
+
+#loginText{
+    color: white;
+}
+
+/*Sección de Noticias*/
+
+#lista_noticias_recientes{
+    background-color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 75%;
+}
+
+#lista_noticias_recientes ul{
+    list-style-type: none;
+    margin-right: 45px;
+}
+
+#lista_noticias_recientes h3{
+    font: bold 20px/1.5 Heveltica, Verdana, sans-serif;
+    color: white;
+}
+
+#lista_noticias_recientes li img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+#lista_noticias_recientes li p{
+    font: 200 12px/1.5 Georgia, Times New Roman, serif;
+    color: white;
+}
+
+#lista_noticias_recientes li a{
+    text-decoration: none;
+    color: white;
+}
+
+#lista_noticias_recientes li{
+    background-color: #111;
+    padding: 10px;
+    overflow: auto;
+}
+
+#lista_noticias_recientes li:hover{
+    background: darkgrey;
+    cursor: pointer;
+}
+
+/*Página de Error*/
+
+#fondo_error{
+    background-color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+    text-align: center;
+    padding: 50px;
+    width: 75%;
+}
+
+#fondo_error h2{
+    color: white;
+    font: impact;
+}
+
+#fondo_error a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Formulario Login*/
+.contenido{
+    background-color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+    text-align: center;
+    padding: 50px;
+    width: 75%;
+}
+
+
+#formularioLogin input[type=text], input[type=password]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+}
